@@ -2,8 +2,8 @@
 #'
 #' Gets the xtab, calculates the percentages and gets the p-value
 #' @param working_data data frame to work with
-#' @param var1 rows for the xtab
-#' @param var2 cols for the xtab
+#' @param var1 colname as a string, the categories of this var will be the row names for the xtab
+#' @param var2 colname as a string, will the cols for the xtab, needs to be in 0 / 1 form
 #' @keywords blank
 #' @export
 #' @examples fullxtab_function(var1, var2)

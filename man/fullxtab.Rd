@@ -9,9 +9,9 @@ fullxtab(working_data, var1, var2)
 \arguments{
 \item{working_data}{data frame to work with}
 
-\item{var1}{rows for the xtab}
+\item{var1}{colname as a string, the categories of this var will be the row names for the xtab}
 
-\item{var2}{cols for the xtab}
+\item{var2}{colname as a string, will the cols for the xtab, needs to be in 0 / 1 form}
 }
 \description{
 Gets the xtab, calculates the percentages and gets the p-value
