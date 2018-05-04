@@ -4,10 +4,14 @@
 \alias{fullxtab}
 \title{Improved xtab}
 \usage{
-fullxtab(var1, var2)
+fullxtab(working_data, var1, var2)
 }
 \arguments{
+\item{working_data}{data frame to work with}
+
 \item{var1}{rows for the xtab}
+
+\item{var2}{cols for the xtab}
 }
 \description{
 Gets the xtab, calculates the percentages and gets the p-value

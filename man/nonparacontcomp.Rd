@@ -4,10 +4,14 @@
 \alias{nonparacontcomp}
 \title{Non-parametric Comparison of Variable Columns}
 \usage{
-nonparacontcomp(var1, var2)
+nonparacontcomp(working_data, var1, var2)
 }
 \arguments{
+\item{working_data}{data frame to work with}
+
 \item{var1}{var1 for comparison}
+
+\item{var2}{var2 for comparison}
 }
 \description{
 Gets the median, calculates the IQR and gets the p-value using Fisher's Exact test
@@ -15,6 +19,3 @@ Gets the median, calculates the IQR and gets the p-value using Fisher's Exact te
 \examples{
 nonparacontcomp()
 }
-\keyword{comparison}
-\keyword{for}
-\keyword{var2}
